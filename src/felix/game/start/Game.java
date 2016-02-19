@@ -18,8 +18,8 @@ import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
 
 public class Game extends Canvas implements Runnable {
-    public final int WIDTH = 160;
-    public final int HEIGHT = WIDTH / 12 * 9;
+    public final int WIDTH = 320;
+    public final int HEIGHT = WIDTH / 16 * 9;
     public final int SCALE = 3;
     public final String NAME = "2D GAME";
     private boolean running;
